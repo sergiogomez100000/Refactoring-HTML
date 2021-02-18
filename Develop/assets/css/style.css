@@ -1,24 +1,26 @@
+/*selecting all elements and applying*/
 * {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
 }
+/*selecting header class and applying attr*/
 .header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
-
+/*selecting h1 tag in header class and appplying attr*/
 .header h1 {
     display: inline-block;
     font-size: 48px;
 }
-
+/*selecting seo class in h1 tag in header class and applying attr*/
 .header h1 .seo {
     color: #d9dcd6;
 }
-
+/*selecting div in header class and applying attr*/
 .header div {
     padding-top: 15px;
     margin-right: 20px;
@@ -26,17 +28,17 @@
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     font-size: 20px;
 }
-
+/*selecting li in ul in div in header class and applying attr*/
 .header div ul li {
     display: inline-block;
     margin-left: 25px;
 }
-
+/*selecting anchors and applying attr*/
 a {
     color: #ffffff;
     text-decoration: none;
 }
-
+/*selecting hero class and applying attr*/
 .hero {
     height: 800px;
     width: 100%;
@@ -45,17 +47,17 @@ a {
     background-size: cover;
     background-position: center;
 }
-
+/*selecting float-left class and applying attr*/
 .float-left {
     float: left;
     margin-right: 25px;
 }
-
+/*selecting float-right class and applying attr*/
 .float-right {
     float: right;
     margin-left: 25px;
 }
-
+/*slecting content class and applying attr*/
 .content {
     width: 75%;
     display: inline-block;
@@ -130,3 +132,6 @@ h3 {
 .footer h2 {
     font-size: 20px;
 }
+​a:header:visited {
+    color: green;
+  }
