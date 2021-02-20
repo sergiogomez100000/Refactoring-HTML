@@ -51,6 +51,14 @@ a {
     background-size: cover;
     background-position: center;
 }
+
+/* Main Section Styling */
+/*selecting content class and applying attr*/
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
 /*selecting float-left class and applying attr*/
 .float-left {
     float: left;
@@ -61,12 +69,7 @@ a {
     float: right;
     margin-left: 25px;
 }
-/*selecting content class and applying attr*/
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
+/*---- Aside Section Styling -----*/
 /*selecting benefits class and applying attr*/
 .benefits {
     margin-right: 20px; 
@@ -77,6 +80,9 @@ a {
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
+}
+
+.benefit {
     margin-bottom: 32px;
     color:#ffffff ;
 }
