@@ -10,6 +10,8 @@ Using Html tags,css styling, and ids and classes to overall make website more ac
     - description
     - acceptance criteria or user story
 
+Add a photo here!
+
 ### Technologies Used
 - HTML
 - CSS
